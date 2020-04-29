@@ -10,6 +10,7 @@ phases:
       java: openjdk8
   pre_build:
     commands:
+      - echo "test"
       - echo Logging in to Amazon ECR...
       - echo $IMAGE_REPO_NAME
       - echo $AWS_ACCOUNT_ID
